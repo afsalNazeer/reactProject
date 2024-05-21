@@ -1,7 +1,7 @@
 import "../assets/css/main.css";
 import { Link } from 'react-router-dom';
 import { useState, Suspense, lazy } from 'react';
-import servImg1 from "../assets/images/service/img1.jpg";
+import servImg1 from "../assets/images/service/img5.jpg";
 import servImg2 from "../assets/images/service/img2.jpg";
 import servImg3 from "../assets/images/service/img3.jpg";
 import servImg4 from "../assets/images/service/img4.jpg";
