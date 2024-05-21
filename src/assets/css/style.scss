@@ -1,0 +1,402 @@
+// homeAbout
+#homeAbout{
+    width: 100%;
+    padding: 100px 0px;
+    background: var(--lightBgColor);
+    .homeAboutMain{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        .homeAboutDetails{
+            flex: 0 0 50%;
+            display: flex;
+            flex-direction: column;
+            h2{
+                text-align: left;
+                font-size: 3.5em;
+                line-height: 1.3;
+                width: 70%;
+            }
+            p{
+                font-size: 20px;
+                text-align: left;
+                margin-top: 30px;
+                line-height: 1.5;
+                width: 85%;
+            }
+            a{
+                text-decoration: none;
+                border: 1px solid var(--primaryColor);
+                color: var(--primaryColor);
+                font-size: 18px;
+                border-radius: 50px;
+                padding: 12px 30px;
+                transition: .3s;
+                width: fit-content;
+                margin-top: 40px;
+                background: white;
+                @media(max-width:1800px){
+                    font-size: 16px;
+                }
+                &:hover{
+                    transition: .3s;
+                    border-color: var(--secondaryColor);
+                    background: var(--secondaryColor);
+                    color: white;
+                }
+            }
+        }
+        .homeAboutPoints{
+            flex: 0 0 45%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            .homeAboutPointsBox{
+                width: calc(100% / 2 - 10px);
+                background: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 40px 30px 30px 30px;
+                &:nth-of-type(1){
+                    border-radius: 50px 50px 4px 50px;
+                    .homeAboutPointsBoxIcon{
+                        &::after{
+                            background: #fece00;
+                        }
+                        &::before{
+                            background: #fecf0058;
+                        }
+                    }
+                }
+                &:nth-of-type(2){
+                    border-radius: 50px 50px 50px 4px;
+                    .homeAboutPointsBoxIcon{
+                        &::after{
+                            background: #ffbfd0;
+                        }
+                        &::before{
+                            background: #ffbfd053;
+                        }
+                    }
+                }
+                &:nth-of-type(3){
+                    border-radius: 50px 4px 50px 50px;
+                    .homeAboutPointsBoxIcon{
+                        &::after{
+                            background: #81e3b1;
+                        }
+                        &::before{
+                            background: #81e3b058;
+                        }
+                    }
+                }
+                &:nth-of-type(4){
+                    border-radius: 4px 50px 50px 50px;
+                    .homeAboutPointsBoxIcon{
+                        &::after{
+                            background: #afd9e3;
+                        }
+                        &::before{
+                            background: #afd9e354;
+                        }
+                    }
+                }
+                .homeAboutPointsBoxIcon{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background: #eee;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    z-index: 0;
+                    svg{
+                        font-size: 25px;
+                    }
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        z-index: -1;
+                        background: #eee;
+                    }
+                    &::before{
+                        position: absolute;
+                        content: '';
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        z-index: -2;
+                        background: #eeeeeeb5;
+                    }
+                }
+                h3{
+                    font-size: 22px;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+                p{
+                    font-size: 16px;
+                    margin-top: 15px;
+                    line-height: 1.3;
+                    text-align: center;
+                    opacity: .7;
+                }
+            }
+        }
+    }
+}
+
+// homeService
+#homeService{
+    width: 100%;
+    padding: 100px 0px;
+    .homeServiceTitle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        h2{
+            text-align: left;
+            font-size: 3.5em;
+            line-height: 1.3;
+        }
+        p{
+            font-size: 20px;
+            text-align: left;
+            margin-top: 10px;
+            line-height: 1.5;
+            width: 50%;
+        }
+    }
+    .homeServiceMain{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 40px;
+        .homeServiceBox{
+            width: calc(100% / 4 - 15px);
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #eee;
+            border-radius: 20px;
+            overflow: hidden;
+            text-decoration: none;
+            .homeServiceBoxThumbnail{
+                width: 100%;
+                height: 180px;
+                background: #eee;
+                overflow: hidden;
+                span{
+                    width: 100%;
+                    height: 100%;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .homeServiceBoxDetails{
+                width: 100%;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h3{
+                    font-size: 22px;
+                    text-align: center;
+                    color: #343434;
+                }
+                p{
+                    font-size: 16px;
+                    margin-top: 15px;
+                    line-height: 1.3;
+                    text-align: center;
+                    opacity: .7;
+                    color: #343434;
+                }
+                .homeServiceBoxBtn{
+                    text-decoration: none;
+                    border: 1px solid var(--primaryColor);
+                    color: var(--primaryColor);
+                    font-size: 16px;
+                    border-radius: 50px;
+                    padding: 8px 26px;
+                    transition: .3s;
+                    width: fit-content;
+                    margin-top: 20px;
+                    background: white;
+                    @media(max-width:1800px){
+                        font-size: 16px;
+                    }
+                    &:hover{
+                        transition: .3s;
+                        border-color: var(--secondaryColor);
+                        background: var(--secondaryColor);
+                        color: white;
+                    }
+                }
+            }
+        }
+        .loaded{
+            .homeServiceBoxThumbnail{
+                position: relative;
+                z-index: 0;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: -100%;
+                    z-index: -1;
+                    background: #dedede;
+                    box-shadow: 0 0 50px #00000024;
+                    filter: blur(15px);
+                    opacity: .5;
+                    animation: lazyLoading1 1.5s linear infinite;
+                    @keyframes lazyLoading1 {
+                        0%{
+                            left: -100%;
+                        }
+                        100%{
+                            left: 100%;
+                        }
+                    }
+                }
+                img{
+                    display: none;
+                }
+            }
+            .homeServiceBoxDetails{
+                h3{
+                    position: relative;
+                    overflow: hidden;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        background: #eee;
+                        border-radius: 5px;
+                        z-index: 1;
+                        left: 0;
+                        top: 0;
+                    }
+                    &::before{
+                        position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        background: #eee;
+                        border-radius: 5px;
+                        z-index: 2;
+                        left: 0;
+                        top: 0;
+                        background: #dedede;
+                        box-shadow: 0 0 50px #00000024;
+                        filter: blur(15px);
+                        opacity: .5;
+                        animation: lazyLoading2 1.5s linear infinite;
+                        @keyframes lazyLoading2 {
+                            0%{
+                                left: -100%;
+                            }
+                            100%{
+                                left: 100%;
+                            }
+                        }
+                    }
+                }
+                p{
+                    position: relative;
+                    overflow: hidden;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        background: #eee;
+                        border-radius: 5px;
+                        z-index: 1;
+                        left: 0;
+                        top: 0;
+                    }
+                    &::before{
+                        position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        background: #eee;
+                        border-radius: 5px;
+                        z-index: 2;
+                        left: 0;
+                        top: 0;
+                        background: #dedede;
+                        box-shadow: 0 0 50px #00000024;
+                        filter: blur(15px);
+                        opacity: .5;
+                        animation: lazyLoading3 1.5s linear infinite;
+                        @keyframes lazyLoading3 {
+                            0%{
+                                left: -100%;
+                            }
+                            100%{
+                                left: 100%;
+                            }
+                        }
+                    }
+                }
+                .homeServiceBoxBtn{
+                    position: relative;
+                    overflow: hidden;
+                    border-color: #eee;
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        background: #eee;
+                        border-radius: 5px;
+                        z-index: 1;
+                        left: 0;
+                        top: 0;
+                    }
+                    &::before{
+                        position: absolute;
+                        content: '';
+                        width: 100%;
+                        height: 100%;
+                        background: #eee;
+                        border-radius: 5px;
+                        z-index: 2;
+                        left: 0;
+                        top: 0;
+                        background: #dedede;
+                        box-shadow: 0 0 50px #00000024;
+                        filter: blur(15px);
+                        opacity: .5;
+                        animation: lazyLoading2 1.5s linear infinite;
+                        @keyframes lazyLoading2 {
+                            0%{
+                                left: -100%;
+                            }
+                            100%{
+                                left: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
