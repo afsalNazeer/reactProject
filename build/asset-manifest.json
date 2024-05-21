@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.897d5694.css",
+    "main.js": "/static/js/main.8a36dcb9.js",
+    "static/css/929.6f017f21.chunk.css": "/static/css/929.6f017f21.chunk.css",
+    "static/js/929.555c4abd.chunk.js": "/static/js/929.555c4abd.chunk.js",
+    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
+    "static/js/281.f005b141.chunk.js": "/static/js/281.f005b141.chunk.js",
+    "static/media/img5.jpg": "/static/media/img5.0cb5a4f1c8ac6d4d2e9a.jpg",
+    "static/media/img1.png": "/static/media/img1.f081621d05fffdcb63c4.png",
+    "static/media/img3.png": "/static/media/img3.fea8aacbabdd837276a7.png",
+    "static/media/img4.png": "/static/media/img4.1d521dc5a89955b2214d.png",
+    "static/media/img2.png": "/static/media/img2.dd1c8bceeb538d0291a4.png",
+    "static/media/img3.jpg": "/static/media/img3.5caa7c90534ff1ac8e66.jpg",
+    "static/media/img2.jpg": "/static/media/img2.68a6a5a8dfea568c98f2.jpg",
+    "static/media/img4.jpg": "/static/media/img4.393002617c92fc80fd6e.jpg",
+    "static/media/PPTelegraf-UltraBold.otf": "/static/media/PPTelegraf-UltraBold.a4a5cacdc162d01a03ea.otf",
+    "static/media/PPTelegraf-Regular.otf": "/static/media/PPTelegraf-Regular.7a1d1a884ed6f9b965c1.otf",
+    "static/media/PPTelegraf-UltraLight.otf": "/static/media/PPTelegraf-UltraLight.f2334e3e2262a920f24b.otf",
+    "index.html": "/index.html",
+    "main.897d5694.css.map": "/static/css/main.897d5694.css.map",
+    "main.8a36dcb9.js.map": "/static/js/main.8a36dcb9.js.map",
+    "929.6f017f21.chunk.css.map": "/static/css/929.6f017f21.chunk.css.map",
+    "929.555c4abd.chunk.js.map": "/static/js/929.555c4abd.chunk.js.map",
+    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map",
+    "281.f005b141.chunk.js.map": "/static/js/281.f005b141.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.897d5694.css",
+    "static/js/main.8a36dcb9.js"
+  ]
+}
